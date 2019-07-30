@@ -1,0 +1,42 @@
+
+div#memory_board{
+	background:#CCC;
+	border:#999 1px solid;
+	width:800px;
+	height:640px;
+	padding:34px;
+	margin:0px auto;
+	opacity:0.5;
+}
+div#memory_board > div{
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: 111px;
+	background-position: center;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+	opacity:0.1;
+}
+div#memory_board > button{
+	background: #ECECEC;
+	border-radius: 15px;
+	padding: 10px 20px;
+	display: block;
+	font-family: arial;
+	font-weight: bold;
+	color:#7f7f7f;
+	text-decoration: none;
+	text-shadow:0px 1px 0px #fff;
+	border:1px solid #a7a7a7;
+	width: 145px;
+	margin:0px auto;
+	margin-top: 240px;
+	box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+	-webkit-transition:box-shadow 0.5s;
+}
